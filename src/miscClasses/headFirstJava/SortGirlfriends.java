@@ -37,12 +37,12 @@ public class SortGirlfriends {
 	}
 	
 	public void go(){
-		Girlfriend jiangBei = new Girlfriend("jiangBei", 0);
-		Girlfriend chengMT = new Girlfriend("chengMT", 1);
-		Girlfriend qiangWY = new Girlfriend("qiangWY", 2);
-		girfriendList.add(chengMT);
-		girfriendList.add(jiangBei);
-		girfriendList.add(qiangWY);
+		Girlfriend jb = new Girlfriend("jb", 0);
+		Girlfriend cmt = new Girlfriend("cmt", 1);
+		Girlfriend qwy = new Girlfriend("qwy", 2);
+		girfriendList.add(cmt);
+		girfriendList.add(jb);
+		girfriendList.add(qwy);
 		
 		System.out.println("As entered: " + girfriendList);
 		
